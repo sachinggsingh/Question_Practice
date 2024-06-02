@@ -1,3 +1,4 @@
+// /create a class with name Date and have data member as date month year and day_in_month use constructor and destructor properly also make member function to get data display data and to set wich month have how many days//
 #include<iostream>
 using namespace std;
 class Date
