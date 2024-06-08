@@ -79,7 +79,7 @@ int main()
     //     cout << "The total amount at final is " << a[i].total_amount() << endl;
     // }
 
-    // Setting data for authorization objects
+    // Setting data to get it for the authorization only
     au[0].set_data(4, 1080, 5.5, "ABC");
     au[1].set_data(7, 1500, 3.5, "DEF");
     au[2].set_data(5, 5000, 4.8, "GHI");
