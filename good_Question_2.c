@@ -1,4 +1,4 @@
-/*Let's understand the assigoning of values of pointers*/
+/*Let's understand the assigning of values of pointers*/
 #include < stdio.h >
 
 void switch_it(int *p, int *q) {
