@@ -1,4 +1,4 @@
-/*Simlpe Inheritance*/
+/*Simlpe Inheritance -----one class is simply derived from the another base class*/
 #include<iostream>
 using namespace std;
 class transport            //base class//
@@ -18,7 +18,7 @@ int main()
     w.display();
     return 0;
 }
-/*Multiple Inheritance*/
+/*Multiple Inheritance -------in this of inheritance one base class in derived in more than 1 class*/
 #include<iostream>
 using namespace std;
 class transport            //base class 1
