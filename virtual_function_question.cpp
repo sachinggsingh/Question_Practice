@@ -9,7 +9,7 @@ class shapes
     {
         side = s;
     }
-    virtual float display() = 0;
+    virtual float display() = 0;    //making it the pure Virtual Function//
 };
 class rectangle : public shapes
 {
