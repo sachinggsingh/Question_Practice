@@ -1,9 +1,6 @@
 /*Q -1 */
-/*Create a class to print the area of a square and a rectangle.
-The class has two functions with the same name but different number of parameters.
-The function for printing the area of rectangle has two parameters which are
-its length and breadth respectively while the other function for printing
-the area of square has one parameter which is the side of the square.*/
+/*Create a class to print the area of a square and a rectangle.The class has two functions with the same name but different number of parameters.The function for printing the area of rectangle has two 
+parameters which are its length and breadth respectively while the other function for printing the area of square has one parameter which is the side of the square.*/
 
 #include<iostream>
 using namespace std;
@@ -51,13 +48,9 @@ int main()
 }
 
 /*Q - 2*/
-/*A boy has his money deposited $1000, $1500 and $2000 in banks-Bank A, Bank B and Bank C respectively.
-We have to print the money deposited by him in a particular bank.
-Create a class 'Bank' with a function 'getBalance' which returns 0.
-Make its three subclasses named 'BankA', 'BankB' and 'BankC' with 
-a function with the same name 'getBalance' which returns the 
-amount deposited in that particular bank. 
-Call the function 'getBalance' by the object of each of the three banks.*/
+/*A boy has his money deposited $1000, $1500 and $2000 in banks-Bank A, Bank B and Bank C respectively. We have to print the money deposited by him in a particular bank.
+Create a class 'Bank' with a function 'getBalance' which returns 0. Make its three subclasses named 'BankA', 'BankB' and 'BankC' with a function with the same name 'getBalance' which returns the 
+amount deposited in that particular bank. Call the function 'getBalance' by the object of each of the three banks.*/
 #include<iostream>
 using namespace std;
 class Bank{
