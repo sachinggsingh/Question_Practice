@@ -2,7 +2,6 @@
 #include<iostream>
 #include<cstring>
 using namespace std;
-
 class student
 {
 public:
@@ -20,7 +19,6 @@ public:
         name[0] = '\0';
         gr[0] = '\0';
     }
-
     void get_data()
     {
         cout << "Name: ";
@@ -33,7 +31,6 @@ public:
             cin >> marks[i];
         }
     }
-
     void percentage()
     {
         pr = 0; // reset pr to 0 before calculation
@@ -43,7 +40,6 @@ public:
         }
         pr = pr / 6;
     }
-
     void grade()
     {
         if(pr <= 100 && pr >= 80)
@@ -63,7 +59,6 @@ public:
             strcpy(gr, "fail");
         }
     }
-
     void display()
     {
         cout << "Name: " << name << endl;
@@ -75,7 +70,6 @@ public:
         cout << "Percentage: " << pr << endl;
         cout << "Grade: " << gr << endl;
     }
-
     ~student() {}
 };
 
