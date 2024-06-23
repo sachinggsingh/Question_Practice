@@ -1,4 +1,4 @@
-/*MultiLevel Inheritance  ----in this type a derived class is created from another derived class*/
+/*MultiLevel Inheritance  ---- in this type a derived class is created from another derived class*/
 #include<iostream>
 using namespace std;
 class transport           // parent //
@@ -35,7 +35,7 @@ int main()
     a.display2();
     return 0;
 }
-/*Hierarchical Inheritance ---  more than one derived class is created from a single base class*/  
+/*Hierarchical Inheritance ---   more than one derived class is created from a single base class*/  
 #include<iostream>
 using namespace std;
 class transport           //base class//
@@ -59,7 +59,7 @@ int main()
     w.display();
     return 0;
 }
-/*Hybrid (Virtual) Inheritnace -----it is a combination of the more than one type of inheritance it is called hybrid inheritance here it is combination of hierarical and multiple inheritance*/
+/*Hybrid (Virtual) Inheritnace -----  it is a combination of the more than one type of inheritance it is called hybrid inheritance here it is combination of hierarical and multiple inheritance*/
 #include<iostream>
 using namespace std;
 class transport                   
