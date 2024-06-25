@@ -1,5 +1,4 @@
-/*Create a class Publication and inherit 2 class as book and tape with member functions as page_count and playing_time respectively
-and use appropriate thing do tell about the tape and the book*/
+/*Create a class Publication and inherit 2 class as book and tape with member functions as page_count and playing_time respectively and use appropriate thing do tell about the tape and the book*/
 #include<iostream>
 using namespace std;
 class publication
@@ -36,7 +35,6 @@ class book : public publication
     {
         publication::display();
         cout<<"the number of pages in the book is: "<<page_count<<endl;
-
     }
 };
 class tape : public publication
