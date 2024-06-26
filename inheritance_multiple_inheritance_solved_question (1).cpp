@@ -18,7 +18,7 @@ class MarineAnimal
     public:
     void displayMA()
     {
-        cout<<"I belong to the Marine Animal category: "<<endl;
+       cout<<"I belong to the Marine Animal category: "<<endl;
     }
 };
 class Bluewhale : public Mammal , public MarineAnimal
